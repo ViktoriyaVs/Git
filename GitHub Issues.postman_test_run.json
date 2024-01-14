@@ -1,0 +1,146 @@
+{
+	"id": "3ef600c5-2740-4a6f-acd8-bcd5cee38808",
+	"name": "GitHub Issues",
+	"timestamp": "2024-01-14T17:15:03.188Z",
+	"collection_id": "32315878-01f4472e-909e-4d95-aeb4-fb40508f35b7",
+	"folder_id": 0,
+	"environment_id": "32315878-8e333f72-6e8f-4c57-bd51-4a654d59f50e",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-14T17:15:00.309Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9750f350-1c9d-41d0-8906-460663e1125b",
+			"name": "Создать проблему",
+			"url": "https://api.github.com/repos/ViktoriyaVs/Git/issues",
+			"time": 897,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				897
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "98f845e3-52c3-4822-a2ee-b35c23330690",
+			"name": "Получить список проблем",
+			"url": "https://api.github.com/repos/ViktoriyaVs/Git/issues",
+			"time": 221,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ba053742-280f-4500-857c-caaf9703c338",
+			"name": "Изменить название проблемы",
+			"url": "https://api.github.com/repos/ViktoriyaVs/Git/issues/11",
+			"time": 554,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				554
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a204c1d3-e91e-4761-a375-811dfc64a885",
+			"name": "Удаление проблемы",
+			"url": "https://api.github.com/graphql",
+			"time": 583,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				583
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2255,
+	"collection": {
+		"requests": [
+			{
+				"id": "9750f350-1c9d-41d0-8906-460663e1125b",
+				"method": "POST"
+			},
+			{
+				"id": "98f845e3-52c3-4822-a2ee-b35c23330690",
+				"method": "GET"
+			},
+			{
+				"id": "ba053742-280f-4500-857c-caaf9703c338",
+				"method": "PATCH"
+			},
+			{
+				"id": "a204c1d3-e91e-4761-a375-811dfc64a885",
+				"method": "POST"
+			}
+		]
+	}
+}
