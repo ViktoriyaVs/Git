@@ -44,7 +44,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\" : \"Issue delete\",\r\n    \"assignee\" : \"ViktoriyaVs\",\r\n    \"body\": \"Something went wrong\",\r\n    \"labels\":[\"bug\"]\r\n}",
+					"raw": "{\r\n    \"title\" : \"Issue 1\",\r\n    \"assignee\" : \"ViktoriyaVs\",\r\n    \"body\": \"Something went wrong\",\r\n    \"labels\":[\"bug\"]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
